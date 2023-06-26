@@ -6,6 +6,10 @@
 
 Ktor-E-Commerce built with [ktor](https://ktor.io/docs/welcome.html) for e-commerce api development.
 
+
+## Swagger Test URL
+https://free.bluethunder.site/swagger-ui/index.html?url=/openapi.json#/
+
 ## Swagger View
 
 ![Screenshot 2023-06-26 at 5 31 01 PM](https://github.com/piashcse/ktor-E-Commerce/assets/33801510/34cee19d-33c0-401d-97fe-3d89ffe769bc)
@@ -46,6 +50,10 @@ MVC (Model - View - Controller)
 -  `Create a db in postgreSQL`
 -  Replace you db name in `dataSource.databaseName=ktor-1.0.0` instread of ktor-1.0.0 in hikari.properties from resource folder
 - `run fun main()` from application class
+
+## Maintain and deploy by
+- [**Eslam faisal**](https://github.com/eslamfaisal)
+[![Linkedin](https://img.shields.io/badge/-linkedin-grey?logo=linkedin)](https://www.linkedin.com/in/eslam-faisal-46aa83114/)
 
 ## Thanks to
 - [**Mehedi Hassan Piash**](https://github.com/piashcse)
