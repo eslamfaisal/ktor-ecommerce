@@ -38,17 +38,17 @@ fun Application.configureBasic() {
         // basic info
         info {
             version = "0.0.1"
-            title = "Ktor Ecommerce"
+            title = "Free Ktor Ecommerce Apis"
             description = "Api Documentation for Ktor Ecommerce App"
             contact {
-                name = "PLabs Corporation"
+                name = "Eslam Faisal"
                 email = "eslamfaisal423@gmail.com"
             }
         }
         // describe the server, add as many as you want
-        server("http://0.0.0.0:8080/") {
-//        server("https://free.bluethunder.site/") {
-            description = "Ktor for production server2"
+//        server("http://0.0.0.0:8080/") {
+        server("https://free.bluethunder.site/") {
+            description = "Ktor for production server"
         }
         //optional custom schema object name
         replaceModule(DefaultSchemaNamer, object : SchemaNamer {
