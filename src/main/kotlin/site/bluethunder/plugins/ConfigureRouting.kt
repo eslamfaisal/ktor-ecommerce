@@ -17,16 +17,8 @@ fun Application.configureRouting() {
         get("/openapi.json") {
             call.respond(application.openAPIGen.api.serialize())
         }
-        staticResources(
-            remotePath = "/",
-            basePackage = null,
-            index = "index.html",
-        ) {
-            resources("templates")
-        }
-
         get("/") {
-            call.respondRedirect("/templates/index.html", true)
+            call.respondRedirect("/swagger-ui/index.html?url=/openapi.json", true)
         }
         // Api routing
         apiRouting {
