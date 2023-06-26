@@ -22,7 +22,7 @@ fun Application.configureBasic() {
         allowHeaders { true }
         allowCredentials = true
         anyHost()
-//        allowHost("0.0.0.0:8080", schemes = listOf("https","http"))
+        allowHost("0.0.0.0:8080", schemes = listOf("https","http"))
         allowHost("free.bluethunder.site", schemes = listOf("https","http"))
     }
 
@@ -46,9 +46,9 @@ fun Application.configureBasic() {
             }
         }
         // describe the server, add as many as you want
-//        server("http://0.0.0.0:8080/") {
-        server("https://free.bluethunder.site/") {
-            description = "Ktor for production server"
+        server("http://0.0.0.0:8080/") {
+//        server("https://free.bluethunder.site/") {
+            description = "Ktor for production server2"
         }
         //optional custom schema object name
         replaceModule(DefaultSchemaNamer, object : SchemaNamer {
